@@ -1,0 +1,9 @@
+﻿I am testing prompt token growth and chat-template overhead.
+
+Task:
+1) Summarize the key idea in 3 bullet points.
+2) Return a JSON object with keys: summary, risks, assumptions.
+3) Keep output under 120 tokens.
+
+Include this sentinel exactly at the end of the JSON in a field called sentinel:
+ZXCV-1234-END
