@@ -1,0 +1,8 @@
+timestamp,model,prompt_multiplier,system_chars,user_chars,system_prompt_tokens,user_prompt_tokens,combined_prompt_tokens,interaction_overhead_tokens,max_context,context_pct_used,sentinel,sentinel_returned,truncation_suspected,notes
+2026-01-16T16:20:25,qwen3-1.7b-ctx4096,40,130,12359,34,3168,3199,-3,4096,78.10,,,,
+2026-01-16T16:38:11,qwen3-1.7b-ctx4096,44,130,13595,34,3484,3515,-3,4096,85.82,,,,
+2026-01-16T16:59:11,qwen3-1.7b-ctx4096,46,130,14213,34,3642,3673,-3,4096,89.67,,,,
+2026-01-16T17:21:58,qwen3-1.7b-ctx4096,47,130,14522,34,3721,3752,-3,4096,91.60,,,,WARNING: Context usage >= 90% (near saturation). | SENTINEL_CHECK_ERROR: TypeError: run_sentinel_check() got an unexpected keyword argument 'system_text'
+2026-01-16T17:45:29,qwen3-1.7b-ctx4096,48,130,14831,34,3800,3831,-3,4096,93.53,,,,WARNING: Context usage >= 90% (near saturation). | SENTINEL_CHECK_ERROR: TypeError: run_sentinel_check() got an unexpected keyword argument 'system_text'
+2026-01-16T18:09:52,qwen3-1.7b-ctx4096,50,130,15449,34,3958,3989,-3,4096,97.39,,,,WARNING: Context usage >= 90% (near saturation). | SENTINEL_CHECK_ERROR: TypeError: run_sentinel_check() got an unexpected keyword argument 'system_text'
+2026-01-16T18:35:58,qwen3-1.7b-ctx4096,52,130,16067,,,,,4096,,,,,"OVERFLOW: HTTP 400 from server: {""error"": ""Trying to keep the first 4116 tokens when context the overflows. However, the model is loaded with context length of only 4096 tokens, which is not enough. Try to load the model with a larger context length, or provide a shorter input""}"
