@@ -15,15 +15,12 @@ Thumbs.db
 .vscode/
 
 # Outputs
-results/
-!results/.gitkeep
-# ignore all results
 results/**
-
-# but keep samples
 !results/
+!results/.gitkeep
 !results/samples/
 !results/samples/**
+
 
 # Logs
 *.log
