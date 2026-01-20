@@ -264,7 +264,7 @@ def is_context_overflow_error(err: Exception) -> bool:
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="Project C: Prompt/Token Template X-ray for LM Studio (OpenAI-compatible).")
+    ap = argparse.ArgumentParser(description="prompt-token-xray (sentinel v2): probe truncation risk near context saturation (OpenAI-compatible, LM Studio).")
     ap.add_argument("--url", default="http://localhost:1234/v1/chat/completions", help="Chat completions endpoint URL.")
     ap.add_argument("--model", default="qwen3-1.7b", help="Model name as expected by the server.")
     ap.add_argument("--system-file", default="", help="Path to system prompt file (text).")
