@@ -1,5 +1,8 @@
 # prompt-token-xray
 
+## Context
+This work supports exploration of retrieval-aware LLM pipelines by analyzing token overhead, context window utilization, and prompt efficiency.
+
 A small, reproducible harness to measure **prompt token growth**, **chat-template interaction delta**, and **near-context truncation risk** for OpenAI-compatible chat endpoints (tested with LM Studio local server).
 
 ## What it measures
